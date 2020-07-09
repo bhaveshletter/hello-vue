@@ -9,7 +9,7 @@
       </option>
     </select>
 
-    <p v-show='!selected'>
+    <p>
       <b>
         {{ackMessage}}
       </b>
@@ -86,7 +86,7 @@ export default {
   }
 
   .block-cls {
-    display: inline flow-root;
+    display: inline-block;
     padding: 5px;
     margin: 5px;
     border: 1px solid #4CAF50;
