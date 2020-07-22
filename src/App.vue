@@ -3,7 +3,7 @@
     <HelloVue msg="Welcome to Hello Vue"/>
 
     <select v-model='selected' v-on:click='initProcess()' class="btn btn-green">
-      <option disabled value="">Please select one</option>
+      <option disabled value="">Select API endpoint</option>
       <option v-for='sub in subRoutes' v-bind:key='sub'>
         {{sub}}
       </option>
