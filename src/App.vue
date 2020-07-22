@@ -72,7 +72,7 @@
           .catch(error => {
             alert(error)
           }).finally(() => {
-            this.ackMessage = 'Result feched & rendering in progress ...'
+            this.ackMessage = 'Result fetched & rendered.'
           })
       },
       reset: function(){
