@@ -14,7 +14,7 @@
     </button>
 
     <button @click='openPrompt()' class='btn btn-blue'>
-      Input URL
+      Enter API URL
     </button>
 
     <p>
