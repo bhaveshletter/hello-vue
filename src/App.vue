@@ -9,7 +9,7 @@
       </option>
     </select>
 
-    <button @click='reset()' class='btn btn-green'>
+    <button @click='reset()' class='btn btn-red'>
       Reset
     </button>
 
@@ -139,6 +139,17 @@
 
   .btn-green:hover {
     background-color: #4CAF50;
+    color: white;
+  }
+
+  .btn-red {
+    background-color: white; 
+    color: black; 
+    border: 1px solid #FF6347;
+  }
+
+  .btn-red:hover {
+    background-color: #FF6347;
     color: white;
   }
 
