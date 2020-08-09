@@ -13,15 +13,7 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Compiles and hot-reloads for development
 ```
-yarn build
+ http://localhost:8080
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
