@@ -17,3 +17,6 @@ yarn serve
 ```
  http://localhost:8080
 ```
+
+### Production
+[Live Demo](https://hello-vue-api.herokuapp.com)
